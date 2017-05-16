@@ -1,0 +1,54 @@
+; database configuration file
+; comments start with ";", please use section to separate between "production" and "development"
+; ---------------------------------------------------------------------
+
+[production]
+; #first database connection
+db[conn_str]	= ""
+db[emulate]		= ""
+db[user]		= ""
+db[password]	= ""
+db[prefix]		= ""
+db[charset]		= "utf8"
+
+; #second database connection
+dbro[conn_str]	= ""
+dbro[emulate]	= ""
+dbro[user]		= ""
+dbro[password]	= ""
+dbro[prefix]	= ""
+dbro[charset]	= "utf8"
+; ---------------------------------------------------------------------
+
+[development]
+db[conn_str]	= ""
+db[emulate]		= ""
+db[user]		= ""
+db[password]	= ""
+db[prefix]		= ""
+db[charset]		= "utf8"
+
+; #second database connection
+dbro[conn_str]	= ""
+dbro[emulate]	= ""
+dbro[user]		= ""
+dbro[password]	= ""
+dbro[prefix]	= ""
+dbro[charset]	= "utf8"
+; ---------------------------------------------------------------------
+
+[default]
+db[conn_str]	= ""
+db[emulate]		= ""
+db[user]		= ""
+db[password]	= ""
+db[prefix]		= ""
+db[charset]		= "utf8"
+
+; #second database connection
+dbro[conn_str]	= ""
+dbro[emulate]	= ""
+dbro[user]		= ""
+dbro[password]	= ""
+dbro[prefix]	= ""
+dbro[charset]	= "utf8"
