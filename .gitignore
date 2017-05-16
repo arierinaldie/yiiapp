@@ -1,0 +1,41 @@
+# yii app structure
+/assets
+/uploads
+/index.php
+/index-test.php
+/.htaccess
+
+# protected config
+/protected/config/database.php
+/protected/config/main.php
+/protected/config/console.php
+/protected/config/test.php
+
+# protected tests
+/protected/tests/_output/*
+/protected/tests/acceptance.suite.yml
+
+#protected
+/protected/runtime
+/protected/yiic.php
+/protected/yiic
+
+# phpstorm project files
+.idea
+
+# netbeans project files
+nbproject
+
+# zend studio for eclipse project files
+.buildpath
+.project
+.settings
+
+# windows thumbnail cache
+Thumbs.db
+
+# composer itself is not needed
+/protected/composer.lock
+
+# Mac DS_Store Files
+.DS_Store
